@@ -92,7 +92,7 @@ Embedded content
 /* * 1. Removes border when inside `a` element in IE 6/7/8/9 and Firefox 3.
 * 2. Improves image quality when scaled in IE 7. */
  
-img { border: 0; /* 1 */
+img { border: 1; /* 1 */
 -ms-interpolation-mode: bicubic; /* 2 */ }
 /* * Corrects overflow displayed oddly in IE 9. */
 svg:not(:root) { overflow: hidden; }
@@ -183,7 +183,7 @@ Headings
 .hero h1 { font-size: 60px; font-weight: 400; color: #fff; letter-spacing: -1px; margin: 200px 0 20px 0; }
 .hero p { font-weight: 400; color: #fff; letter-spacing: -1px; margin: 0px 0 180px 0; }
 .download-now h1 { font-size: 55px; font-weight: 100; color: #fff; margin: 100px 0 20px 0; }
-.testimonials h1 { color: #fff; font-size: 43px; font-weight: 100; margin: 20px 0 80px 0; font-style: italic; }
+.testimonials h1 { color: #c0c0c0;; font-size: 43px; font-weight: 300; margin: 20px 0 80px 0; font-style: italic; }
 .features h1 { color: #3c4042; font-size: 15px; margin: 0 0 20px 0; text-transform: uppercase; }
 .features h2 { color: #3c4042; font-size: 43px; margin: 0 0 60px 0; text-transform: uppercase; text-align: center;}
 .design h1 { color: #abbcc3; font-size: 38px; font-weight: 300; margin-top: 0; }
@@ -243,6 +243,14 @@ footer p { color: #fff; line-height: 30px; }
 .footer-credit { font-size: 16px; text-transform: uppercase; letter-spacing: 5px; }
 footer a { font-size: 16px; color: #96d6d3; transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; }
 footer a:hover, footer a:focus { font-size: 16px; color: #527775; text-decoration: none; }
+.div_team {
+    background-color:#eeeeee;
+    display:inline;      
+}
+.ul_team li{
+    display:inline-block;
+    vertical-align: top;
+}
 /* ==========================================================================
 Animations
 ========================================================================== */
@@ -310,3 +318,4 @@ Waypoints
 #slider-4 { background: #e8b968 url('../img/results-cities.png') no-repeat center; background-size: cover; }
 
 .avatar-name {font-family: fangsong;}
+
