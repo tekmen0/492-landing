@@ -182,11 +182,11 @@ Headings
 
 .hero h1 { font-size: 60px; font-weight: 400; color: #fff; letter-spacing: -1px; margin: 200px 0 20px 0; }
 .hero p { font-weight: 400; color: #fff; letter-spacing: -1px; margin: 0px 0 180px 0; }
-.download-now h1 { font-size: 55px; font-weight: 100; color: #fff; margin: 100px 0 20px 0; }
+.download-now h1 { font-size: 55px; font-weight: 300; color: #fff; margin: 100px 0 20px 0; }
 .testimonials h1 { color: #c0c0c0;; font-size: 43px; font-weight: 300; margin: 20px 0 80px 0; font-style: italic; }
 .features h1 { color: #3c4042; font-size: 15px; margin: 0 0 20px 0; text-transform: uppercase; }
 .features h2 { color: #3c4042; font-size: 43px; margin: 0 0 60px 0; text-transform: uppercase; text-align: center;}
-.design h1 { color: #abbcc3; font-size: 38px; font-weight: 300; margin-top: 0; }
+.design h1 { color: #3c4042; font-size: 38px; font-weight: 300; margin-top: 0; }
 /* ==========================================================================
 Custom Styles
 ========================================================================== */
@@ -207,7 +207,7 @@ nav ul li a:hover, nav ul li a:focus { color: rgba(255, 255, 255, 1); text-decor
 .get-started-btn { background-color: #0e1d2a; padding: 20px 80px; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; font-size: 22px; letter-spacing: 2px; box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.4); transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; display: inline-block; }
 .get-started-btn:hover, .get-started-btn:focus { text-decoration: none; background-color: #000510; }
 .download-now { background: #ffe9e6 url('../img/ipadBG.png') no-repeat right 65px; background-size: 50%; }
-.download-now p { color: #000510; font-size: 16px; margin: 40px 30px 40px 0; line-height: 30px; }
+.download-now p { color: #000510; font-weight: 400; font-size: 18px; margin: 40px 30px 40px 0; line-height: 30px; }
 .download-now h1 { color: #000000; font-size: 64px;}
 .download-btn { border: solid 4px #3c4042; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; font-size: 17px; letter-spacing: 2px; transition: all 0.5s ease; padding: 15px 70px; display: inline-block; color: #3c4042; margin-bottom: 185px; }
 .download-btn:hover, .download-btn:focus { text-decoration: none; border-color: #000; color: #000; }
@@ -227,10 +227,10 @@ nav ul li a:hover, nav ul li a:focus { color: rgba(255, 255, 255, 1); text-decor
 .colour2 { background-color: #e8b968; }
 .colour3 { background-color: #7accc8; }
 .colour4 { background-color: #373b44; }
-.title { font-size: 15px; color: #9197a8; text-transform: uppercase; font-weight: 600; letter-spacing: 2px; padding: 20px 40px 0; }
-.feature-text { padding: 0px 20px 40px 40px; font-style: italic; color: #7a8387; font-size: 16px; }
-.design-content p { color: #abbcc3; line-height: 30px; font-weight: 300; }
-.controls a { color: #959595; transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; }
+.title { font-size: 15px; color: #3c4042; text-transform: uppercase; font-weight: 600; letter-spacing: 2px; padding: 20px 40px 0; }
+.feature-text { padding: 0px 20px 40px 40px; font-style: italic; color: #3c4042; font-size: 18px; }
+.design-content p { color: #3c4042; line-height: 30px; font-size: 18px; font-weight: 300; }
+.controls a { color: #3c4042; transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; }
 .controls a:hover, .controls a:focus { color: #555555; }
 .controls .prev { margin-right: 5px; }
 footer { background-color: #000510; padding: 75px 0 220px; }
